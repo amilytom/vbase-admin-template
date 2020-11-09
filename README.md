@@ -1,21 +1,31 @@
 # vbase-admin-template
 
-> VUE后台管理系统架构模板
+> VUE 后台管理系统架构模板
 
 ## Build Setup
 
-``` bash
-# install dependencies
+```bash
+# 克隆项目
+git clone https://github.com/amilytom/vbase-admin-template.git
+
+# 安装依赖
 npm install
 
-# serve with hot reload at localhost:8080
+# 启动服务 http://localhost:8080
 npm run dev
 
-# build for production with minification
+# 发布项目
 npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
 ```
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+## 功能
+
+- 登录/注销
+- 权限验证（页面级）
+- 动态侧边栏
+- 动态面包屑
+- 导航标签
+- 401、404、全局错误捕捉
+- element-ui
+- axios 封装（统一处理请求、拦截、报错等）
+- cache 封装
